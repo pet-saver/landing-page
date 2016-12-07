@@ -24,5 +24,10 @@ module.exports = {
         stripPrefix: 'public/'
       }
     }
+  },
+  server: {
+    path: 'server.js',
+    port: 8081,
+    run: true
   }
 };
