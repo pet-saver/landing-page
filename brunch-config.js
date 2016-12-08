@@ -27,7 +27,7 @@ module.exports = {
   },
   server: {
     path: 'server.js',
-    port: 8081,
+    port: process.env.OPENSHIFT_NODEJS_PORT || 8080,
     run: true
   }
 };
